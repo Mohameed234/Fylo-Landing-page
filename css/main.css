@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    font-family: sans-serif;
+}
+.container{
+    padding: 10px 50px;
+}
+/* Start Header */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    padding: 10px;
+}
+.nav-text{
+    width: 400px;
+    height: 100%;
+}
+
+.nav-text ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav-text ul li a{
+    text-decoration-line: none;
+    font-size: 20px;
+}
+
+/* End Header */
+
+
+
+/* Start Section 1 */
+.section-1-content{
+    margin: 20px 0px;
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+}
+.section-1-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.section-1-img{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+}
+.section-1-img img{
+    width: 70%;
+    height: 100%;
+}
+.section-1-form{
+    margin-top: 20px;
+}
+.section-1-form input{
+    height: 30px;
+    width: 250px;
+}
+.email{
+    padding: 5px 0px 5px 10px;
+    border-radius: 3px;
+}
+
+.section-1-form .submit{
+    width: 150px;
+    background-color: #4d4deb;
+    color: white;
+    height: 42px;
+    border: none;
+    box-shadow: 3px 2px 7px 0px #00000057;
+    border-radius: 3px;
+}
+.section-1-form .submit:hover {
+    cursor: pointer;
+}
+/* End Section 1 */
+
+/* Start Section 2 */
+.section-2-background{
+    background-image: url(../images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.section-2-content{
+    margin: 0px 0px;
+    display: flex;
+    height: 700px;
+    justify-content: space-between;
+    
+
+}
+.section-2-img{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.section-2-img img{
+    width:500px;
+    height: 500px;
+}
+.section-2-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-around;
+
+}
+.section-2-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+}
+.section-2-heading a{
+    color: #3da08f;
+}
+.section-2-box {
+    padding: 30px;
+    background-color: #ffffff;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    box-shadow: 3px 4px 8px 0px #00000026;
+}
+.section-2-text-box-avatar{
+    display: flex;
+    gap: 15px;
+}
+
+.avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.avatar-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.avatar-text h2{
+    font-size: 15px;
+}
+.avatar-text p{
+    font-size: 10px;
+}
+/* End Section 2 */
+
+
+
+/* Start Section 3 */
+.section-3-background{
+    background-color: hsl(238, 22%, 44%);
+}
+.section-3-content{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.section-3-text{
+    color: white;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.section-3-ip{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section-3-ip .email{
+    height: 35px;
+    border: none;
+}
+.section-3-ip .submit{
+    height: 35px;
+    color: white;
+    background-color: #4d4deb;
+    width: 50%;
+    border: none;
+    box-shadow: 3px 2px 7px 0px #00000057;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+/* End Section 3 */
+
+
+/* Start Section 4 */
+.section-4-background{
+    background-color: hsl(243, 87%, 12%);
+}
+.section-4-content{
+    height: 320px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-4-content .logo{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+   gap: 20px;
+
+}
+.section-4-content .logo img{
+}
+.section-4-content .media{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.section-4-content .media .box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.box-3{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    gap: 30px;
+}
+.media a{
+    text-decoration: none;
+    color: white;
+}
+
+/* End Section 4 */
+
+
+
+
+
